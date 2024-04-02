@@ -112,4 +112,12 @@ footer {
 .footertext {
     color: white;
 }
-
+pre{
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid black 2px;
+    padding: 2px;
+    margin: 2px;
+    background-color: beige;
+}
