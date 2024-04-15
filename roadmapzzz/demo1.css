@@ -54,4 +54,8 @@ footer{
     padding:100px;
     margin: auto;
 }
-
+@media screen and (max-width: 1234px) {
+    .box-container img{
+        display: none;
+    }
+  }

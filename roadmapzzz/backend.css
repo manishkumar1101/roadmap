@@ -86,5 +86,8 @@ footer {
 .footertext {
     color: aliceblue;
 }
-
-
+@media screen and (max-width: 1234px) {
+    .box-container img{
+        display: none;
+    }
+  }

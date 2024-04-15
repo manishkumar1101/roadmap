@@ -54,6 +54,11 @@ body{
         font-size: 25px;
     }
 }
+@media screen and (max-width: 1234px) {
+    .box-container img{
+        display: none;
+    }
+  }
 .card-container{
     display: flex;
     justify-content:center;

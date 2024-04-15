@@ -11,6 +11,9 @@ body {
 .box-container {
     position: relative;
     color: aliceblue;
+    margin-inline-start: auto;
+    background-color: black;
+    position: relative;
    
     /* Remove background color from box-container */
 }
@@ -124,3 +127,9 @@ pre {
     margin: 0; 
     overflow:auto; /* Add scrollbars if content exceeds box dimensions */
 }
+@media screen and (max-width: 1100px) {
+    .box-container img{
+        display: none;
+
+    }
+  }
